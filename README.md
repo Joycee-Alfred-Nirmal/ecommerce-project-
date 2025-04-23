@@ -1,5 +1,7 @@
 # ecommerce-project-  
 
+CODE IS IN MASTER BRANCH
+
 This repository contains two versions of a responsive e-commerce website:
 
 1. **Next.js Version (with Tailwind CSS)**
