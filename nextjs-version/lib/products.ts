@@ -1,0 +1,143 @@
+export const products = [
+    {
+      id: "1",
+      title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      price: 109.95,
+      image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      description: "Perfect pack for everyday use and walks in the forest. Designed with a padded sleeve for laptops."
+    },
+    {
+      id: "2",
+      title: "Mens Casual Premium Slim Fit T-Shirts",
+      price: 22.3,
+      image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879_.jpg",
+      description: "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, lightweight & soft fabric."
+    },
+    {
+      id: "3",
+      title: "Mens Cotton Jacket",
+      price: 55.99,
+      image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      description: "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions."
+    },
+    {
+      id: "4",
+      title: "Mens Casual Slim Fit",
+      price: 15.99,
+      image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      description: "The color could be slightly different between on the screen and in practice."
+    },
+    {
+      id: "5",
+      title: "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      price: 695,
+      image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      description: "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl."
+    },
+    {
+      id: "6",
+      title: "Solid Gold Petite Micropave",
+      price: 168,
+      image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      description: "Satisfaction Guaranteed. Return or exchange any order within 30 days."
+    },
+    {
+      id: "7",
+      title: "White Gold Plated Princess",
+      price: 9.99,
+      image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      description: "Classic Created Wedding Engagement Solitaire Diamond Promise Ring."
+    },
+    {
+      id: "8",
+      title: "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      price: 10.99,
+      image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      description: "Rose Gold Plated Double Flared Tunnel Plug Earrings."
+    },
+    {
+      id: "9",
+      title: "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+      price: 64,
+      image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      description: "USB 3.0 and USB 2.0 Compatibility. Fast data transfers."
+    },
+    {
+      id: "10",
+      title: "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      price: 109,
+      image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      description: "Easy upgrade for faster boot-up, shutdown, application load and response."
+    },
+    {
+      id: "11",
+      title: "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      price: 109,
+      image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      description: "High transfer speeds and reliable performance for daily computing."
+    },
+    {
+      id: "12",
+      title: "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      price: 114,
+      image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      description: "Expand your PS4 gaming experience. Easy setup, plug-and-play."
+    },
+    {
+      id: "13",
+      title: "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      price: 599,
+      image: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      description: "Ultra-thin monitor with full HD resolution and high refresh rate."
+    },
+    {
+      id: "14",
+      title: "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor",
+      price: 999.99,
+      image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      description: "Super ultrawide 32:9 curved gaming monitor with QLED technology."
+    },
+    {
+      id: "15",
+      title: "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      price: 56.99,
+      image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      description: "Warm and waterproof jacket perfect for winter sports."
+    },
+    {
+      id: "16",
+      title: "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      price: 29.95,
+      image: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      description: "Stylish and comfortable faux leather jacket with removable hood."
+    },
+    {
+      id: "17",
+      title: "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      price: 39.99,
+      image: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      description: "Lightweight and breathable raincoat perfect for hiking and travel."
+    },
+    {
+      id: "18",
+      title: "MBJ Women's Solid Short Sleeve Boat Neck V",
+      price: 9.85,
+      image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      description: "Soft, stretchy, and stylish casual t-shirt for women."
+    },
+    {
+      id: "19",
+      title: "Opna Women's Short Sleeve Moisture",
+      price: 7.95,
+      image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      description: "Quick-drying performance tee great for workouts or everyday wear."
+    },
+    {
+      id: "20",
+      title: "DANVOUY Womens T Shirt Casual Cotton Short",
+      price: 12.99,
+      image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      description: "Soft cotton t-shirt with cute graphic design and a relaxed fit."
+    }
+  ];
+  
