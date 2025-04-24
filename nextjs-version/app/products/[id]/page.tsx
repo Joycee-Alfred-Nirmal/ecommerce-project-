@@ -2,12 +2,13 @@
 
 'use client';
 
+import { useParams, useRouter } from 'next/navigation';
 import { products } from '@/lib/products';
-import { useRouter } from 'next/navigation';
 
-export default function ProductDetail({ params }: { params: { id: string } }) {
+export default function ProductDetail() {
   const router = useRouter();
-  const product = products.find((item) => item.id === params.id);
+  const { id } = useParams();
+  const product = products.find((item) => item.id === id);
 
   if (!product) {
     return (
