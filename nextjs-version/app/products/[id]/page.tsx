@@ -1,14 +1,18 @@
-// app/products/[id]/page.tsx
-
 'use client';
 
+import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { products } from '@/lib/products';
 
 export default function ProductDetail() {
-  const router = useRouter();
   const { id } = useParams();
-  const product = products.find((item) => item.id === id);
+  const router = useRouter();
+  const [product, setProduct] = useState<any>(null);
+
+  useEffect(() => {
+    const found = products.find((item) => item.id === id);
+    setProduct(found);
+  }, [id]);
 
   if (!product) {
     return (
